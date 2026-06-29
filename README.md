@@ -1,4 +1,5 @@
-🫁 Early Lung Cancer Detection Using Deep Learning
+🫁 Early Lung Cancer Detection Using Deep Learning 
+
 📌 Overview
 Early Lung Cancer Detection is a Deep Learning-based medical image analysis system designed to assist in the early diagnosis of lung cancer using CT scan images. The system utilizes a Convolutional Neural Network (CNN) to classify lung CT scans into different categories and provides visual explanations using Grad-CAM heatmaps.
 
@@ -22,6 +23,7 @@ Benign
 Malignant
 Grad-CAM generates a heatmap showing important regions.
 Results are displayed through a Flask web interface.
+
 🏗️ System Workflow
 CT Scan Image
        │
@@ -54,6 +56,7 @@ Seaborn	Data Analysis & Graphs
 Flask	Web Application
 Jupyter Notebook	Model Development
 📂 Dataset
+
 The model is trained using lung CT scan images belonging to categories such as:
 
 Adenocarcinoma
@@ -65,6 +68,7 @@ Normal
 The dataset helps the model learn patterns associated with different lung conditions.
 
 🧠 Model Architecture
+
 The project uses a Convolutional Neural Network (CNN) for:
 
 Feature Extraction
@@ -76,6 +80,7 @@ Edges
 Textures
 Shapes
 Tumor Regions
+
 🔥 Grad-CAM Visualization
 Grad-CAM (Gradient-weighted Class Activation Mapping) is integrated to improve model interpretability.
 
@@ -84,6 +89,7 @@ Benefits:
 Highlights important regions influencing predictions.
 Helps understand model decisions.
 Improves trust and transparency in AI-assisted diagnosis.
+
 📊 Output
 The system provides:
 
@@ -92,6 +98,7 @@ Confidence Score
 Original CT Scan Image
 Grad-CAM Heatmap
 Visual Explanation of Prediction
+
 🚀 Installation
 Clone the Repository
 git clone https://github.com/yourusername/early-lung-cancer-detection.git
@@ -116,7 +123,9 @@ Early-Lung-Cancer-Detection/
 ├── gradcam.py
 ├── requirements.txt
 └── README.md
+
 🎯 Advantages
+
 Early disease detection
 Reduced manual workload
 Consistent diagnosis support
@@ -124,11 +133,13 @@ Explainable AI through heatmaps
 Easy-to-use web interface
 Scalable and extensible architecture
 ⚠️ Limitations
+
 Performance depends on dataset quality.
 Requires CT scan images.
 Not a replacement for professional medical diagnosis.
 Accuracy can be improved with larger clinical datasets.
 🔮 Future Enhancements
+
 Integration with hospital systems
 Mobile application support
 Real-time clinical deployment
@@ -136,6 +147,7 @@ Detection of additional lung diseases
 Larger and more diverse training datasets
 Faster prediction and inference models
 Automated report generation
+
 👨‍💻 Team Members
 M. Kalyani
 K. Tejasree
@@ -147,3 +159,4 @@ Department of Computer Science and Engineering
 
 ⭐ Support
 If you find this project useful, consider giving it a ⭐ on GitHub.
+
