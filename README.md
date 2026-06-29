@@ -25,25 +25,18 @@ Grad-CAM generates a heatmap showing important regions.
 Results are displayed through a Flask web interface.
 
 🏗️ System Workflow
-CT Scan Image
-       │
-       ▼
-Image Preprocessing
-       │
-       ▼
-CNN Feature Extraction
-       │
-       ▼
-Classification
-       │
-       ▼
-Grad-CAM Visualization
-       │
-       ▼
-Prediction Results
-       │
-       ▼
-Flask Web Interface
+Early-Lung-Cancer-Detection/
+│
+├── dataset/
+├── models/
+├── static/
+├── templates/
+├── app.py
+├── train_model.py
+├── predict.py
+├── gradcam.py
+├── requirements.txt
+└── README.md
 🛠️ Technologies Used
 Technology	Purpose
 Python	Programming Language
